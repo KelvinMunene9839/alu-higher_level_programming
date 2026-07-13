@@ -21,3 +21,8 @@ variable scope, and arithmetic operators.
 
 Sets, set methods, dictionaries, dictionary methods, lambda functions, and
 the `map`, `reduce`, and `filter` functions.
+
+### python-exceptions
+
+Exception handling with `try`/`except`/`finally`, built-in exception types,
+and raising exceptions with `raise`.
