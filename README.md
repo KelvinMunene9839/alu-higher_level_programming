@@ -26,3 +26,9 @@ the `map`, `reduce`, and `filter` functions.
 
 Exception handling with `try`/`except`/`finally`, built-in exception types,
 and raising exceptions with `raise`.
+
+### python-classes
+
+Object-oriented programming: classes, private instance attributes,
+properties (getters/setters), and documentation (docstrings) for modules,
+classes, and methods.
