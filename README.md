@@ -16,3 +16,8 @@ Bash scripts for running Python files and inline Python code.
 Conditional statements, `while`/`for` loops, loop control (`break`,
 `continue`, loop `else` clauses, `pass`), the `range` function, functions,
 variable scope, and arithmetic operators.
+
+### python-more_data_structures
+
+Sets, set methods, dictionaries, dictionary methods, lambda functions, and
+the `map`, `reduce`, and `filter` functions.
