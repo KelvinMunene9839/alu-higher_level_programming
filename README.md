@@ -43,3 +43,9 @@ from JSON strings and files.
 
 The basics of MySQL: creating and dropping databases, creating tables,
 and selecting, inserting, updating, and deleting rows.
+
+### SQL_more_queries
+
+MySQL users and privileges, `PRIMARY KEY`/`FOREIGN KEY` and
+`NOT NULL`/`UNIQUE` constraints, subqueries, and `JOIN` across
+multiple tables.
