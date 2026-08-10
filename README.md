@@ -55,3 +55,9 @@ multiple tables.
 The fundamentals of HTTP and the network layer of the web, and using
 `curl` to send GET/DELETE/POST requests, inspect headers, and check
 accepted methods and status codes.
+
+### python-network_1
+
+Fetching and manipulating internet resources from Python with `urllib`
+and `requests`: GET/POST requests, response headers, JSON APIs, and the
+GitHub API.
