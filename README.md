@@ -71,3 +71,8 @@ documenting modules and functions.
 
 A `Base`/`Rectangle`/`Square` class hierarchy with attribute validation,
 `*args`/`**kwargs`, JSON serialization, and a full unit test suite.
+
+### python-object_relational_mapping
+
+Connecting Python to MySQL with `MySQLdb` and with the SQLAlchemy ORM,
+including SQL-injection-safe queries and mapping classes to tables.
