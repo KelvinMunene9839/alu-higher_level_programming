@@ -38,3 +38,8 @@ classes, and methods.
 Reading from and writing to files with the `with` statement, and JSON
 serialization/deserialization: converting Python data structures to and
 from JSON strings and files.
+
+### SQL_introduction
+
+The basics of MySQL: creating and dropping databases, creating tables,
+and selecting, inserting, updating, and deleting rows.
