@@ -121,6 +121,13 @@ class TestBaseSaveToFile(unittest.TestCase):
             content = jsonfile.read()
         self.assertEqual(content, "[]")
 
+    def test_empty_list_rectangle(self):
+        """Passing an empty list should save an empty list."""
+        Rectangle.save_to_file([])
+        with open("Rectangle.json", "r") as jsonfile:
+            content = jsonfile.read()
+        self.assertEqual(content, "[]")
+
     def test_overwrites_existing_file(self):
         """save_to_file should overwrite any existing file."""
         Rectangle.save_to_file([Rectangle(1, 1)])
@@ -133,6 +140,20 @@ class TestBaseSaveToFile(unittest.TestCase):
         """Square instances should be saved to Square.json."""
         Square.save_to_file([Square(5)])
         self.assertTrue(os.path.exists("Square.json"))
+
+    def test_none_saves_empty_list_square(self):
+        """Passing None should save an empty list for Square."""
+        Square.save_to_file(None)
+        with open("Square.json", "r") as jsonfile:
+            content = jsonfile.read()
+        self.assertEqual(content, "[]")
+
+    def test_empty_list_square(self):
+        """Passing an empty list should save an empty list for Square."""
+        Square.save_to_file([])
+        with open("Square.json", "r") as jsonfile:
+            content = jsonfile.read()
+        self.assertEqual(content, "[]")
 
 
 class TestBaseCreate(unittest.TestCase):

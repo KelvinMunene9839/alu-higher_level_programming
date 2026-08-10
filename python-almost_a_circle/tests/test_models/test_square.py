@@ -43,6 +43,31 @@ class TestSquareInit(unittest.TestCase):
         with self.assertRaises(ValueError):
             Square(-5)
 
+    def test_size_zero(self):
+        """A size of 0 should raise a ValueError."""
+        with self.assertRaises(ValueError):
+            Square(0)
+
+    def test_x_not_int(self):
+        """A non-int x should raise a TypeError."""
+        with self.assertRaises(TypeError):
+            Square(1, "2")
+
+    def test_y_not_int(self):
+        """A non-int y should raise a TypeError."""
+        with self.assertRaises(TypeError):
+            Square(1, 2, "3")
+
+    def test_x_negative(self):
+        """A negative x should raise a ValueError."""
+        with self.assertRaises(ValueError):
+            Square(1, -2)
+
+    def test_y_negative(self):
+        """A negative y should raise a ValueError."""
+        with self.assertRaises(ValueError):
+            Square(1, 2, -3)
+
 
 class TestSquareStr(unittest.TestCase):
     """Tests for Square.__str__."""
