@@ -32,3 +32,9 @@ and raising exceptions with `raise`.
 Object-oriented programming: classes, private instance attributes,
 properties (getters/setters), and documentation (docstrings) for modules,
 classes, and methods.
+
+### python-input_output
+
+Reading from and writing to files with the `with` statement, and JSON
+serialization/deserialization: converting Python data structures to and
+from JSON strings and files.
