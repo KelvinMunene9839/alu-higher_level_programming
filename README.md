@@ -61,3 +61,8 @@ accepted methods and status codes.
 Fetching and manipulating internet resources from Python with `urllib`
 and `requests`: GET/POST requests, response headers, JSON APIs, and the
 GitHub API.
+
+### python-test_driven_development
+
+Test-driven development in Python: interactive doctests, unittests, and
+documenting modules and functions.
