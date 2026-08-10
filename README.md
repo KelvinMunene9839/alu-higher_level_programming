@@ -49,3 +49,9 @@ and selecting, inserting, updating, and deleting rows.
 MySQL users and privileges, `PRIMARY KEY`/`FOREIGN KEY` and
 `NOT NULL`/`UNIQUE` constraints, subqueries, and `JOIN` across
 multiple tables.
+
+### python-network_0
+
+The fundamentals of HTTP and the network layer of the web, and using
+`curl` to send GET/DELETE/POST requests, inspect headers, and check
+accepted methods and status codes.
