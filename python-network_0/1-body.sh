@@ -1,3 +1,3 @@
 #!/bin/bash
-# Sends a GET request to a URL and displays the body only if the status is 200
-response=$(curl -s -w "%{http_code}" "$1"); [ "${response: -3}" = "200" ] && echo "${response%???}"
+# Follows redirects, sends a GET request, and displays the body if status is 200
+response=$(curl -s -L -w "%{http_code}" "$1"); [ "${response: -3}" = "200" ] && printf '%s' "${response%???}"
