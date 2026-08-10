@@ -66,3 +66,8 @@ GitHub API.
 
 Test-driven development in Python: interactive doctests, unittests, and
 documenting modules and functions.
+
+### python-almost_a_circle
+
+A `Base`/`Rectangle`/`Square` class hierarchy with attribute validation,
+`*args`/`**kwargs`, JSON serialization, and a full unit test suite.
